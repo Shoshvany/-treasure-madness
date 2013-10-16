@@ -1,0 +1,118 @@
+#
+#  A small reminder - gitignore only ignores "new" files. It has no
+#  affect on files that are already tracked (already in the repository).
+#
+
+
+#############################################################
+#             Visual Studio Auto Generated Files
+#############################################################
+*.suo
+*.sln.cache
+*.csproj.user
+net/src/**/bin/
+net/src/**/obj/
+out/
+bin/
+obj/
+net/src/Ohio.sln.SolutionBuild*.*
+net/src/Ohio.UtilRunner*.psess
+net/src/Ohio.UtilRunner*.vsp
+
+#############################################################
+#             ReSharper Auto Generated Files
+#############################################################
+net/src/_[Rr]e[Ss]harper*
+net/src/**/_ReSharper.*
+*.[Rr]e[Ss]harper.user
+net/src/Ohio.*.ReSharper
+*.DotSettings.user
+
+#############################################################
+#             Java Binaries, Proj Files, etc.
+#############################################################
+java/out
+java/**/target
+*.iml
+*.ipr
+*.iws
+java/logs
+java/shci-model/gen
+java/entity-viewer/src/main/resources/SolutionAssemblyInfo.cs
+java/.idea/**.*
+java/.idea/**/*.*
+java/seeding-update-logic/testFiles/
+
+elastic_custom_plugins/.idea/**.*
+elastic_custom_plugins/out
+elastic_custom_plugins/target
+
+elastic-embedded/.idea/**.*
+elastic-embedded/out
+elastic-embedded/**/target
+
+#############################################################
+#             .NET Templates and Static files
+#############################################################
+net/src/Ohio.Web.Api/Views/__EmailTemplates
+net/src/Ohio.Web.UI/Views/__EmailTemplates
+net/src/Ohio.Web.UI/static/*/aggregated
+net/src/Widgets/static/*/aggregated
+net/src/Ohio.Web.UI/static/js/omniture-data.js
+net/src/*.TeamCity.user
+net/src/Ohio.Web.UI/temporary_log.log
+net/src/Ohio.Web.UI/.sass-cache
+net/src/Ohio.Web.UI/Translations.dat
+net/src/Ohio.CMS/.sass-cache
+*ncrunch*
+*crunchsolution*
+
+#############################################################
+#          Sass / Compass Auto Generated Files
+#############################################################
+net/src/Ohio.Web.UI/static/css/fusion/*.css
+net/src/Ohio.Web.UI/static/css/fusion/**/*.css
+#Match auto-generated sprites such as general-icons-sa3f69eb377 (for some reason they always start with s... right?)
+net/src/Ohio.Web.UI/static/img/fusion/*s[a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9].png
+
+#############################################################
+#          Automatically Generated JS Templates
+#############################################################
+net/src/Ohio.Web.UI/static/js/[Tt]emplates/**/*
+
+#############################################################
+#             		Script Outputs
+#############################################################
+scripts/shavrir/log/*.log
+scripts/shavrir/tmp.sql
+scripts/SpellChecker/Report.xml
+net/src/logs/elastic/queries.log
+
+#############################################################
+#                  Configuration Files
+#############################################################
+net/src/**/conf.ConnectionStrings.config
+net/src/**/conf.AppSettings.config
+
+#############################################################
+#          Platform Auto Generated Documentation
+#############################################################
+net/src/Ohio.Web.Platform/js/
+
+#############################################################
+#                  CMS
+#############################################################
+net/src/Ohio.CMS/Translations.dat
+net/src/Ohio.CMS/temporary_log.log
+net/src/Ohio.CMS/static/cms/css/aggregated/*.css
+net/src/Ohio.CMS/static/cms/js/aggregated/*.js
+net/src/Ohio.CMS/static/cms/css/*.css
+
+#############################################################
+#                  Miscellaneous
+#############################################################
+.gitignore.backup
+*.orig
+[Tt]humbs.db
+elastic-embedded/.idea/*
+
