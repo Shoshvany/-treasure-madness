@@ -1,9 +1,6 @@
-﻿using System.Collections.Generic;
-using System.Linq;
-using Platform.Client;
+﻿using Platform.Client;
 using Platform.Client.Common.Context;
 using SywApplicationWireframe.Domain.Configuration;
-using SywApplicationWireframe.Domain.Users;
 
 namespace SywApplicationWireframe.Domain
 {
